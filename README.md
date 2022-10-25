@@ -8,11 +8,20 @@ $truffle develop (local)
 > migrate --reset 
 
 
-1 - how to interact to compound  
+(to get DAI to test it you can use https://oasis.app/#earn)
 
-2 - how to interact to DAI
 
-if you want to run it in test env
+1 - example how to interact to compound  
+
+    several options. 
+    you can run compound locally as it says --> https://github.com/compound-finance/compound-protocol 
+    testnet, you have to see the network folder to see the address of the SC for each testnet. 
+    ganache --fork infuranode -u daiadminSCaddress  
+    
+
+2 - example how to interact to DAI
+
+    if you want to run it in test env
 
      * use kovan faucet to get ether
      * oasis to get some DAI
@@ -21,4 +30,4 @@ if you want to run it in test env
      * execute foo
      * deploy in infura and private key
 
-3 - how to interact to uniswap v1 
+3 - example how to interact to uniswap v1 
